@@ -20,6 +20,24 @@ let products = [
       "https://qmart.pk/wp-content/uploads/2025/04/Samsung-Galaxy-A56-5G-Qmart-1.png",
     description: "This is the Samsung Galaxy A56 5G",
   },
+  {
+    id: 3,
+    name: "Watch",
+    price: 30000,
+    imageURL:
+     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1chdZHtG27z9r5Dcq8U7UWgXpYGoeghRUVWh-RXD8A&s",
+    description: "Men Watch Stainless Steel Top Quailty Luxury Push Button Hidden Clasp Waterproof Luminous Date Week Sport Wrist Watch"
+
+  },
+  {
+    id: 4,
+    name: "Watch",
+    price: 40000,
+    imageURL:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_UZIPE8VzogOhn4VLqrN5C3iqyuZLDVp59YcRwTUrw&s=10",
+    description: " Rolex Watche"
+
+  },
 ];
 app.get("/products", (req, res) => {
   res.json(products);
