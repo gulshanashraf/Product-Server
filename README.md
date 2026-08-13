@@ -30,14 +30,12 @@ Product Server is a RESTful API built with Node.js and Express.js for managing p
 | PUT | `/products/:id` | Update a product |
 | DELETE | `/products/:id` | Delete a product |
 
-Installation
-
+## Installation
 Install the required dependencies:
 
 npm install
 
-Running the Project
-
+## Running the Project
 Start the server using:
 
 node index.js
@@ -48,6 +46,5 @@ http://localhost:5050
 
 ## API Testing
 The API can be tested using Postman with the following HTTP methods:
- 
- ## Project Purpose
+  ## Project Purpose
 This project was developed to practice REST API development, CRUD operations, and backend fundamentals using Node.js and Express.
